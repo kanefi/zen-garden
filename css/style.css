@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+header {
+
+    background-image: url(huntington.png);
+    margin: auto;
+    height: 40vh;
+
+}
+
+
+
+h1 {
+    font-family: 'IBM Plex Mono';
+    color: white;
+    font-size: 6vh;
+    font-weight: lighter;
+    text-shadow: 1px 6px black;
+    text-align: center;
+    padding: 2em 0 0 1em;
+
+}
+
+
+
+h2 {
+    font-family: 'Satisfy';
+    font-size: 3vh;
+    font-style: italic;
+    color: white;
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 0vh 20vh 0vh 20vh;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 2.5vh;
+    font-weight: bolder;
+    font-stretch: expanded;
+    padding: 0vh 20vh 0vh 20vh;
+}
+p {
+    font-family: 'IBM Plex Mono';
+    font-size: 1.9vh;
+    padding: 0vh 20vh 0vh 20vh;
+}
+
+    
+.participation, .benefits{
+    background-image: url(bamboo.png);
+    
+    background-color: rgb(94, 170, 127);
+    margin-top: 0;
+    margin-bottom: 0;
+
+                                                        /* float: none? */
+    
+}
+
+
+/* .benefits {
+
+    /* padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    border-top: 0vh; */
+} */
+
+/* .participation {
+
+    /* padding: 2px 0px 0px 0px; */
+    /* margin: 0px 0px 0px 0px; */
+    /* box-sizing: border-box; */
+    /* border-bottom: 0vh; */
+/* } */ */
+
+
+div.participation{
+    padding: 3em;
+    margin-top: 3em;
+    
+ }
+ div.benefits {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+ }
+ div.participation h3, div.benefits h3 {
+    margin-top: 0;
+ }
+ div.participation p, div.benefits p {
+    margin-bottom: 0;
+    color: white;
+ }
+
+ div.participation h3 {
+     padding-top: 1em;
+ }
+
+
+  /* Hover over   
+
+  /* <p>Download the example
+                    <a href="/examples/index" title="This page's source HTML code, not to be modified.">html file</a> and
+                    <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a>
+                </p> */
+
+                #zen-summary:link {
+                color: green;
+                }
+                
+                #zen-summary:visited {
+                    color: purple;
+                    }
+                    
+                    #zen-summary:hover {
+                        color: hotpink;
+                        }
+                        #zen-summary:active {
+                            color: blueviolet;
+                            }
+                            
